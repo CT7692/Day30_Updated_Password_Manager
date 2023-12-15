@@ -10,9 +10,9 @@ FONT_SIZE = 12
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 def generate_pw(p_input):
-    letter_list = [choice(letters) for i in range(randint(6, 8))]
-    num_list = [choice(numbers) for j in range(randint(3, 5))]
-    symbol_list = [choice(symbols) for k in range(randint(3, 5))]
+    letter_list = [choice(letters) for i in range(randint(6, 10))]
+    num_list = [choice(numbers) for j in range(randint(5, 7))]
+    symbol_list = [choice(symbols) for k in range(randint(5, 7))]
 
     combined_list = letter_list + num_list + symbol_list
     shuffle(combined_list)
