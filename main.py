@@ -43,7 +43,7 @@ def find_password(s_input, u_input):
             pyperclip.copy(desired_pw)
             messagebox.showinfo(title="Password Found",
                                 message=f"Password found with {my_site}.\nRegistered with {my_email}."
-                                        f"\n\nPassword copied to clipboard.")
+                                        "\n\nPassword copied to clipboard.")
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
